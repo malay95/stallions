@@ -11,7 +11,10 @@ Dependencies needed:
   4. swpag.clients.
 Download each dependencies using pip. 
 
-How to run each Function. 
-1. takebackup(source, destination) 
+
+takebackup(source, destination) 
   use it in your python file as specified above or use it as command line "./backup.py source destination"
   example:   ./backup.py 
+
+Further documentation is available in the documentation folder. 
+Run the index.html file from that folder. 
