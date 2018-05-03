@@ -1,0 +1,41 @@
+1.	Preparation Phase
+
+	1.1		What was our game plan? 
+
+    Since we knew we would have just a couple of hours to find and automate exploits we decided to build a library with a lot of functions. 
+    We didn’t know what kind of vulnerable services we will encounter so, we developed multiple generic tools for finding different kind of vulnerabilities. 
+		
+	Instead of making these tools too specific, we have an option to provide arguments to do more directed attacks.
+
+	1.2		What tools did we think were necessary prior to the CTF? Why did we feel this way?
+
+	The following is the list of tools we built:
+
+	GOT attack:
+	GOT analysis:
+	Get form fields:
+	Buffer overflow:
+	SQL injection identifier:
+	SQL Union injection:
+	Connect_Link:	
+		
+	These can be used for basic analysis to find possible buffer overflow, SQL injection and GOT vulnerability. If we find for example, a service vulnerable 
+	to GOT attack we can then take the result of GOT analysis and give them as arguments to GOT attack tool to do a more direct attack.
+
+	1.3		What procedures did we put in place beforehand and how did we distribute the workload (for scripts and during the final CTF)
+
+	We made sure that we test the tools on vulnerable services before we include them in the final library that would be used during the CTF. We also created a 
+	backup script having learnt from the last CTF that everything should be backed up before we try to patch things. 
+
+	Each of us worked on different tools and made one person responsible for the integration of these tools in a library. The workload was distributed as below:
+
+	1.	GOT attack: Dhrumil Shah, Salil Malik
+	2.	GOT analysis: Dhrumil Shah, Salil Malik
+	3.	Buffer overflow: 
+	4.	Get form fields: 
+	5.	SQL injection identifier:
+	6.	SQL Union injection
+	7.	Connect_Link: 
+	8. 	Integration of the library:
+
+	During the CTF, we decided that we will split into groups of two to work together on different attacks. 
